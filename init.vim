@@ -26,9 +26,10 @@ source ~/.config/nvim/lsp-config.vim
 source ~/.config/nvim/vim-slime.vim
 source ~/.config/nvim/airline.vim
 source ~/.config/nvim/nerdtree.vim
-luafile ~/.config/nvim/lua/lsp_signature.lua
 luafile ~/.config/nvim/lua/python-lsp.lua
 luafile ~/.config/nvim/lua/compe-config.lua
+"luafile ~/.config/nvim/lua/lsp_signature.lua
+
 
 "Remaps
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
@@ -40,3 +41,7 @@ nnoremap <Leader>j gT
 set number
 set splitright
 set splitbelow
+
+"lua require("lsp_signature").setup()
+
+
