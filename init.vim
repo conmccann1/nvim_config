@@ -18,7 +18,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'tmhedberg/SimpylFold'
 
 " :AsyncRun python  "%'  
-Plug 'skywind3000/asyncrun.vim'
+" Plug 'skywind3000/asyncrun.vim'
 
 Plug 'jpalardy/vim-slime', { 'for': 'python'  }
 Plug 'hanschen/vim-ipython-cell', { 'for': 'python'  }
